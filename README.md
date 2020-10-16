@@ -2,8 +2,8 @@
 
 ## General
 
-![github_actions_gtest_example-Release](https://github.com/narethim/github_actions_gtest_example/workflows/github_actions_gtest_example-Release/badge.svg?branch=master)
-![github_actions_gtest_example-Debug](https://github.com/narethim/github_actions_gtest_example/workflows/github_actions_gtest_example-Debug/badge.svg?branch=master)
+![github_actions_gtest_example-Release](https://github.com/narethim/github_actions_gtest_example/workflows/github_actions_gtest_example-Release/badge.svg?branch=main)
+![github_actions_gtest_example-Debug](https://github.com/narethim/github_actions_gtest_example/workflows/github_actions_gtest_example-Debug/badge.svg?branch=main)
 
 Example on how to integrate gtest test into [github actions](https://github.com/features/actions).
 
