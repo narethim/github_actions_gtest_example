@@ -2,10 +2,10 @@
 
 ## General
 
-![github_actions_gtest_example-Release](https://github.com/bastianhjaeger/github_actions_gtest_example/workflows/github_actions_gtest_example-Release/badge.svg?branch=master)
-![github_actions_gtest_example-Debug](https://github.com/bastianhjaeger/github_actions_gtest_example/workflows/github_actions_gtest_example-Debug/badge.svg?branch=master)
+![github_actions_gtest_example-Release](https://github.com/narethim/github_actions_gtest_example/workflows/github_actions_gtest_example-Release/badge.svg?branch=master)
+![github_actions_gtest_example-Debug](https://github.com/narethim/github_actions_gtest_example/workflows/github_actions_gtest_example-Debug/badge.svg?branch=master)
 
-Example on how to integrate gtest test into [github actions](https://github.com/features/actions). 
+Example on how to integrate gtest test into [github actions](https://github.com/features/actions).
 
 While there exist other links in the www on how to use it (which did not work for my setup), this repo quickly shows how to add a workflow / action to github that executes your gtest tests and responses with a simple ok / not-ok to highlight on github.
 
@@ -20,9 +20,9 @@ name: my-workflow-name
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -51,11 +51,10 @@ After some time (depending on you project and test complexity) you see the resul
 
 <img src="doc/actions_build_example_03_overview.png" alt="actions_build_example_03_overview" style="zoom:50%;" />
 
-
 ## Build local
 
 ```bash
-git clone git@github.com:bastianhjaeger/github_actions_gtest_example.git
+git clone git@github.com:narethim/github_actions_gtest_example.git
 cd github_actions_gtest_example
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
